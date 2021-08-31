@@ -1,0 +1,16 @@
+{
+  "name": "SpaceCityWeatherPlus",
+  "description": "Make Space City Weather look better",
+  "version": "1.0",
+  "icons": {
+    "48": "cloud48.png",
+	"128": "cloud128.png"
+  },
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://spacecityweather.com/*"],
+      "js": ["content.js"]	  
+    }
+  ]
+}
